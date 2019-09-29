@@ -1,9 +1,7 @@
-from flaskblog import app
-# from  flask_migrate import Migrate, MigrateCommand
+from flaskblog import create_app
 
+app = create_app()
 
-# migrate = Migrate(app,db)
-# manager.add_command('db',MigrateCommand)
 
 if __name__ == '__main__':
     app.run(debug=True)

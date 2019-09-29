@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/wecode/Desktop/yvoprojects/python-projects/blogs/virtual"
+VIRTUAL_ENV="/home/wecode/Documents/Python-projects/Flask-blog/virtual"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
